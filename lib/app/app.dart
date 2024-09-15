@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     //it is used for rendring
-    return const MaterialApp(
+    return MaterialApp(
         title: 'Flutter Lean',
-        home:  HomeView()
-        );
+        theme: ThemeData(primarySwatch: Colors.deepOrange),
+        home: const HomeView());
   }
 }
